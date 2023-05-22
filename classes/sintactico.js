@@ -18,7 +18,6 @@ class Sintactico {
 
         fetch('compilador.lr').then(res => res.text())
         .then(content => {
-            console.log(content);
             let lines = content.split(/\n/);
             let numReglas = parseInt(lines.shift());
             for (let i = 0; i < numReglas; i++) {
