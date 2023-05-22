@@ -28,7 +28,7 @@ class Sintactico {
                 this.simReglas.push(regla[2]);
             }
             
-            let numFila = parseInt(lines[numReglas].split("\t").shift());
+            let numFila = parseInt(lines[numReglas].split("").shift());
             numReglas++;
             for (let i = numReglas; i < numReglas + numFila; i++) {
                 lines[i] = lines[i].replace("\r", "");
