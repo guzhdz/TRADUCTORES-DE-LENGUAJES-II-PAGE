@@ -16,7 +16,7 @@ class Sintactico {
         this.arbol = new Arbol();
 
 
-        fetch('/GramaticaCompilador/compilador.lr').then(res => res.text())
+        fetch('compilador.lr').then(res => res.text())
         .then(content => {
             let lines = content.split(/\n/);
             let numReglas = parseInt(lines.shift());
