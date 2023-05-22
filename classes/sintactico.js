@@ -16,7 +16,7 @@ class Sintactico {
         this.arbol = new Arbol();
 
 
-        fetch('/compilador.lr').then(res => res.text())
+        fetch('compilador.lr').then(res => res.text())
         .then(content => {
             console.log(content);
             let lines = content.split(/\n/);
