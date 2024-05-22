@@ -2,7 +2,7 @@
 Este proyecto consta de un Mini Compilador de lenguaje C basico, esta programado en Javascript y consta de un proyecto que fue construido poco a poco durante un semestre de la carrera durante el
 transcurso de la clase de Traductores de lebguaje de programacion, este es el resultado (Aqui se ecnucentra lo necesario para realizar el despliegue).
 
-El funcionamiento consta de ingresar odigo en el Texarea (Un programa) y pulsar el boton de compilar, a continuacion la analizara e indicara si hay algun error, en caso de que no dara la opcion
+El funcionamiento consta de ingresar codigo en el Tex Area (Un programa) y pulsar el boton de compilar, a continuacion la analizara e indicara si hay algun error, en caso de que no dara la opcion
 de descargar la conpilacion (Codigo ensamblador).
 
 Link repositorio:
